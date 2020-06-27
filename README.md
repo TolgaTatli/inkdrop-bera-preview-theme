@@ -10,6 +10,6 @@ Bear.app like light preview theme for Inkdrop.
 $ ipm install bera-preview
 
 # Additional
-$ ipm install bera-syntax
+$ ipm install bera-light-syntax
 $ ipm install bera-light-ui
 ```
