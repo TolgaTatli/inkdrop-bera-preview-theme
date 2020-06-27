@@ -1,0 +1,240 @@
+@background : #f9f9f9;
+@foreground: #545354;
+@header: #34323a;
+@link-color: #DD4C4F;
+@comment: #888888;
+@quote: @comment;
+@strong: #2E3134;
+@table: @link-color;
+@selected: fade(@link-color, 10%);
+@inline-code: #B7BFC1;
+@active-line-bg: @link-color;
+@active-line-fg: #f9f9f9;
+@code-background: #fff;
+
+@solar-black: #2B303B;
+@solar-yellow : #f4bf75;
+@solar-orange : #cb4b16;
+@solar-red: #f92672;
+@solar-magenta: #ae81ff;
+@solar-violet : #6c71c4;
+@solar-blue: #66d9ef;
+@solar-cyan: #2aa198;
+@solar-green: #4d8011;
+
+body[class*="dark-ui"] {
+  .mde-preview {
+    color: @background;
+  }
+
+  .mde-preview {
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border: 0;
+    }
+
+    input {
+      color: inherit;
+    }
+
+    a {
+      color: @link-color;
+    }
+
+    strong,
+    em {
+      color: @code-background;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: rgba(255, 255, 255, 0.875);
+    }
+
+    h6 {
+      color: rgba(255, 255, 255, 0.625);
+    }
+
+    h1,
+    h2 {
+      border-bottom-color: rgba(255, 255, 255, 0.4);
+    }
+
+    hr {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    blockquote {
+      color: rgba(255, 255, 255, 0.4);
+      border-left: 4px solid rgba(255, 255, 255, 0.1);
+    }
+
+    table th {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    table th,
+    table td {
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    table tr {
+      background-color: transparent;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    table tr:nth-child(2n) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    img {
+      background-color: transparent;
+    }
+
+    .highlight pre,
+    pre {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    pre code {
+      color: @inline-code;
+    }
+
+    code {
+      color: @solar-black;
+    }
+
+    .cm-header {
+      color: @header;
+    }
+
+    .cm-quote {
+      color: @quote;
+      font-style: italic;
+    }
+
+    .cm-negative {
+      color: #d44;
+    }
+
+    .cm-positive {
+      color: #292;
+    }
+
+    .cm-header,
+    .cm-strong {
+      font-weight: bold;
+    }
+
+    .cm-em {
+      font-style: italic;
+    }
+
+    .cm-link {
+      text-decoration: underline;
+    }
+
+    .cm-strikethrough {
+      text-decoration: line-through;
+    }
+
+    del {
+      color: @quote;
+    }
+
+    .cm-keyword {
+      color: @solar-red;
+      font-weight: bold;
+    }
+
+    .cm-atom {
+      color: @solar-yellow;
+    }
+
+    .cm-number {
+      color: @solar-magenta;
+    }
+
+    .cm-def {
+      color: @solar-cyan;
+    }
+
+    .cm-property {
+      color: @solar-cyan;
+    }
+
+    .cm-operator {
+      color: @solar-violet;
+    }
+
+    .cm-variable,
+    .cm-punctuation {
+      color: @background;
+    }
+
+    .cm-variable-2 {
+      color: @solar-yellow;
+    }
+
+    .cm-variable-3,
+    .cm-s-default .cm-type {
+      color: @solar-violet;
+    }
+
+    .cm-comment {
+      color: @comment;
+      font-style: italic;
+    }
+
+    .cm-string {
+      color: @solar-green;
+    }
+
+    .cm-string-2 {
+      color: @solar-yellow;
+    }
+
+    .cm-meta {
+      color: @solar-green;
+    }
+
+    .cm-qualifier {
+      color: @solar-yellow;
+    }
+
+    .cm-builtin {
+      color: @solar-magenta;
+    }
+
+    .cm-bracket {
+      color: @solar-orange;
+    }
+
+    .cm-tag {
+      color: @quote;
+    }
+
+    .cm-attribute {
+      color: @solar-cyan;
+    }
+
+    .cm-hr {
+      color: @inline-code;
+    }
+
+    .cm-link {
+      color: @link-color;
+    }
+
+    .cm-error {
+      color: #f00;
+    }
+  }
+}

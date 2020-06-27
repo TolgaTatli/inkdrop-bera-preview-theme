@@ -1,0 +1,164 @@
+body[class*="dark-ui"] .mde-preview {
+  color: #f9f9f9;
+}
+body[class*="dark-ui"] .mde-preview a {
+  background-color: transparent;
+}
+body[class*="dark-ui"] .mde-preview img {
+  border: 0;
+}
+body[class*="dark-ui"] .mde-preview input {
+  color: inherit;
+}
+body[class*="dark-ui"] .mde-preview a {
+  color: #DD4C4F;
+}
+body[class*="dark-ui"] .mde-preview strong,
+body[class*="dark-ui"] .mde-preview em {
+  color: #fff;
+}
+body[class*="dark-ui"] .mde-preview h1,
+body[class*="dark-ui"] .mde-preview h2,
+body[class*="dark-ui"] .mde-preview h3,
+body[class*="dark-ui"] .mde-preview h4,
+body[class*="dark-ui"] .mde-preview h5,
+body[class*="dark-ui"] .mde-preview h6 {
+  color: rgba(255, 255, 255, 0.875);
+}
+body[class*="dark-ui"] .mde-preview h6 {
+  color: rgba(255, 255, 255, 0.625);
+}
+body[class*="dark-ui"] .mde-preview h1,
+body[class*="dark-ui"] .mde-preview h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+body[class*="dark-ui"] .mde-preview hr {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body[class*="dark-ui"] .mde-preview blockquote {
+  color: rgba(255, 255, 255, 0.4);
+  border-left: 4px solid rgba(255, 255, 255, 0.1);
+}
+body[class*="dark-ui"] .mde-preview table th {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body[class*="dark-ui"] .mde-preview table th,
+body[class*="dark-ui"] .mde-preview table td {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+body[class*="dark-ui"] .mde-preview table tr {
+  background-color: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+body[class*="dark-ui"] .mde-preview table tr:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+body[class*="dark-ui"] .mde-preview img {
+  background-color: transparent;
+}
+body[class*="dark-ui"] .mde-preview .highlight pre,
+body[class*="dark-ui"] .mde-preview pre {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+body[class*="dark-ui"] .mde-preview pre code {
+  color: #B7BFC1;
+}
+body[class*="dark-ui"] .mde-preview code {
+  color: #2B303B;
+}
+body[class*="dark-ui"] .mde-preview .cm-header {
+  color: #34323a;
+}
+body[class*="dark-ui"] .mde-preview .cm-quote {
+  color: #888888;
+  font-style: italic;
+}
+body[class*="dark-ui"] .mde-preview .cm-negative {
+  color: #d44;
+}
+body[class*="dark-ui"] .mde-preview .cm-positive {
+  color: #292;
+}
+body[class*="dark-ui"] .mde-preview .cm-header,
+body[class*="dark-ui"] .mde-preview .cm-strong {
+  font-weight: bold;
+}
+body[class*="dark-ui"] .mde-preview .cm-em {
+  font-style: italic;
+}
+body[class*="dark-ui"] .mde-preview .cm-link {
+  text-decoration: underline;
+}
+body[class*="dark-ui"] .mde-preview .cm-strikethrough {
+  text-decoration: line-through;
+}
+body[class*="dark-ui"] .mde-preview del {
+  color: #888888;
+}
+body[class*="dark-ui"] .mde-preview .cm-keyword {
+  color: #f92672;
+  font-weight: bold;
+}
+body[class*="dark-ui"] .mde-preview .cm-atom {
+  color: #f4bf75;
+}
+body[class*="dark-ui"] .mde-preview .cm-number {
+  color: #ae81ff;
+}
+body[class*="dark-ui"] .mde-preview .cm-def {
+  color: #2aa198;
+}
+body[class*="dark-ui"] .mde-preview .cm-property {
+  color: #2aa198;
+}
+body[class*="dark-ui"] .mde-preview .cm-operator {
+  color: #6c71c4;
+}
+body[class*="dark-ui"] .mde-preview .cm-variable,
+body[class*="dark-ui"] .mde-preview .cm-punctuation {
+  color: #f9f9f9;
+}
+body[class*="dark-ui"] .mde-preview .cm-variable-2 {
+  color: #f4bf75;
+}
+body[class*="dark-ui"] .mde-preview .cm-variable-3,
+body[class*="dark-ui"] .mde-preview .cm-s-default .cm-type {
+  color: #6c71c4;
+}
+body[class*="dark-ui"] .mde-preview .cm-comment {
+  color: #888888;
+  font-style: italic;
+}
+body[class*="dark-ui"] .mde-preview .cm-string {
+  color: #4d8011;
+}
+body[class*="dark-ui"] .mde-preview .cm-string-2 {
+  color: #f4bf75;
+}
+body[class*="dark-ui"] .mde-preview .cm-meta {
+  color: #4d8011;
+}
+body[class*="dark-ui"] .mde-preview .cm-qualifier {
+  color: #f4bf75;
+}
+body[class*="dark-ui"] .mde-preview .cm-builtin {
+  color: #ae81ff;
+}
+body[class*="dark-ui"] .mde-preview .cm-bracket {
+  color: #cb4b16;
+}
+body[class*="dark-ui"] .mde-preview .cm-tag {
+  color: #888888;
+}
+body[class*="dark-ui"] .mde-preview .cm-attribute {
+  color: #2aa198;
+}
+body[class*="dark-ui"] .mde-preview .cm-hr {
+  color: #B7BFC1;
+}
+body[class*="dark-ui"] .mde-preview .cm-link {
+  color: #DD4C4F;
+}
+body[class*="dark-ui"] .mde-preview .cm-error {
+  color: #f00;
+}
