@@ -1,7 +1,7 @@
 {
   "name": "bera-preview",
   "description": "Bera preview theme for Inkdrop",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "theme": "preview",
   "repository": "https://github.com/TaylanTatli/inkdrop-bera-preview-theme",
   "license": "MIT",
@@ -13,7 +13,6 @@
     "bera-markdown-dark.css"
   ],
   "author": "Taylan Tatlı<taylantatli90 [dot] inkdrop.app>",
-  "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
   },
