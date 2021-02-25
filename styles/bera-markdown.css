@@ -368,12 +368,13 @@
   background-color: #fff;
 }
 .mde-preview code {
-  padding: 4px;
-  margin: 0;
+  background: #fff;
+  color: #545354;
   font-size: 85%;
-  background-color: #B7BFC1;
-  color: #fff;
-  border-radius: 4px;
+  padding: 3px;
+  margin: 0;
+  border-radius: 3px;
+  border: 1px solid #B7BFC1;
 }
 .mde-preview code:before,
 .mde-preview code:after {
